@@ -27,7 +27,7 @@ public class Player_Controller : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            GameObject.Instantiate(bullet, transform);
+            GameObject.Instantiate(bullet, transform.position, transform.rotation);
         }
     }
 

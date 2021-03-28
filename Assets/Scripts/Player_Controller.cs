@@ -7,6 +7,7 @@ public class Player_Controller : MonoBehaviour
     public float speed;
     private Rigidbody2D rb;
 
+    public GameObject bullet;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,16 @@ public class Player_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Shoot();
         Move();
+    }
+
+    void Shoot()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            GameObject.Instantiate(bullet, transform);
+        }
     }
 
     void Move()

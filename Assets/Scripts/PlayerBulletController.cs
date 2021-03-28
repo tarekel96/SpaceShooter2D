@@ -17,6 +17,10 @@ public class PlayerBulletController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // destroys rocket once it gets out of camera viewport
+        if(Camera.main.WorldToViewportPoint(transform.position).y > 1)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

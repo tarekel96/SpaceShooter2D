@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: d8f241d7914c34548808664a531bd63d
+guid: 634c2e07edae94d29b009ee21bf8d911
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7592357483586913841
-    second: laser-bolts_0
+      213: 7823993351900353309
+    second: enemy-big_0
   - first:
-      213: -7473884541784295895
-    second: laser-bolts_1
-  - first:
-      213: -4846001458554201047
-    second: laser-bolts_2
-  - first:
-      213: 596975449725228887
-    second: laser-bolts_3
+      213: -7871563040996269557
+    second: enemy-big_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,85 +105,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: laser-bolts_0
+      name: enemy-big_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 16
-        width: 13
-        height: 13
-      alignment: 9
-      pivot: {x: 0.4243068, y: 0.50504583}
-      border: {x: 0, y: 0, z: 2, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc9f50f381782a690800000000000000
-      internalID: -7592357483586913841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser-bolts_1
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 15
-        width: 12
-        height: 12
-      alignment: 9
-      pivot: {x: 0.63666743, y: 0.6189005}
-      border: {x: 3, y: 4, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 926f9aa8b9d674890800000000000000
-      internalID: -7473884541784295895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser-bolts_2
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 2
-        width: 12
-        height: 16
-      alignment: 9
-      pivot: {x: 0.3674313, y: 0.576323}
-      border: {x: 0, y: 0, z: 2, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92c1ad1495b8fbcb0800000000000000
-      internalID: -4846001458554201047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: laser-bolts_3
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 5
-        width: 13
-        height: 13
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75750843202e84800800000000000000
-      internalID: 596975449725228887
+      spriteID: d13d9011088649c60800000000000000
+      internalID: 7823993351900353309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-big_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02e25a9e1792c290800000000000000
+      internalID: -7871563040996269557
       vertices: []
       indices: 
       edges: []

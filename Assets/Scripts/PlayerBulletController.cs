@@ -23,4 +23,14 @@ public class PlayerBulletController : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    // logic handling bullet-enemy collisions
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            GameObject.Destroy(this.gameObject);
+            GameObject.Destroy(collision.gameObject);
+        }
+    }
 }
